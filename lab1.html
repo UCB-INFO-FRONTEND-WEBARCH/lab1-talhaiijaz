@@ -3,9 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab1</title>
+  <title>Talha's Website</title>
+  <meta name="description" content="This is Talha's website for the Lab 1 assignment">
 </head>
 <body>
-  <!-- your code goes here -->
+  <header id="home">
+    <h1>Talha's Website</h1>
+    <nav>
+      <ul style="list-style: none; padding: 0;">
+        <li style="display: inline; margin-right: 20px;"><a href="#home">Home</a></li>
+        <li style="display: inline; margin-right: 20px;"><a href="#about">About</a></li>
+        <li style="display: inline; margin-right: 20px;"><a href="#experience">Experience</a></li>
+        <li style="display: inline; margin-right: 20px;"><a href="#projects">Projects</a></li>
+        <li style="display: inline;"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Hi! I'm a senior at UC Berkeley studying Computer Science and Mathematics. I'm really excited to be learning about front-end development and expanding my skills in web technologies. The intersection of programming and design in front-end development offers a unique creative outlet that I find fascinating.</p>
+      <figure>
+        <img src="TAL03008.JPG" alt="Photo of Talha Ijaz" style="max-width: 160px; height: auto; border-radius: 8px;" />
+      </figure>
+      <h3>Education</h3>
+      <p><strong>University of California, Berkeley</strong> · B.A. in Computer Science, B.A. in Applied Mathematics (conc. Data Sci.) — <em>Expected May 2026</em></p>
+      <ul>
+        <li><strong>GPA:</strong> 3.79/4.0</li>
+        <li><strong>Relevant Coursework:</strong> Data Structures & Algorithms, Computer Security, Computer Architecture, Principles & Techniques of Data Science, Mathematical Methods for Optimization, Abstract Linear Algebra, Discrete Mathematics, Multivariable Calculus</li>
+        <li><strong>Awards:</strong> Dean’s Honors List, Academic Scholarship Award, International House Resident Leader</li>
+      </ul>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <article>
+        <p><strong>MIT Plasma Science and Fusion Center</strong></p>
+        <ul>
+          <li>Help the MIT PSFC Disruption Studies Group with Scientific Software development on DisruptionPy.</li>
+        </ul>
+      </article>
+      <article>
+        <p><strong>Computational Game Theory at UC Berkeley</strong></p>
+        <ul>
+          <li>Part of a research group developing game-solving systems and interactive interfaces under Prof. Dan Garcia.</li>
+        </ul>
+      </article>
+      <article>
+        <p><strong>Kollegio AI</strong></p>
+        <ul>
+          <li>Designed and deployed advanced algorithms to analyze user-written essays, providing constructive feedback to optimize structure, clarity, and content relevance, resulting in a 30% improvement in user satisfaction ratings.</li>
+          <li>Fine-tuned GPT-based models to enhance feedback algorithms, improving accuracy by 40% through iterative testing and significantly boosting the overall user experience.</li>
+          <li>Developed scalable testing pipelines to evaluate algorithm performance, ensuring reliability and consistency in feedback.</li>
+        </ul>
+      </article>
+      <article>
+        <p><strong>Undergraduate Research Assistant (Nanotechnology)</strong></p>
+        <ul>
+          <li>Developed a real-time field emission analysis interface using Streamlit and Matplotlib, enhancing data visualization and experiment workflow by 15%.</li>
+          <li>Processed and visualized large datasets of 10,000+ rows using Python, Pandas, and NumPy, providing valuable and actionable insights into the field emission current and voltage relationship.</li>
+        </ul>
+      </article>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Email Classifier</strong> · Python, Scikit-learn, NumPy, Pandas — Developed a classification model to distinguish spam and non-spam emails; implemented data preprocessing, feature extraction, and logistic regression; achieved 85% training accuracy and evaluated using precision, recall, and F1-score.
+        </li>
+        <li>
+          <strong>Scheme Interpreter</strong> · Python — Built a Scheme interpreter in Python with 20+ features including expression evaluation and procedure application; designed a recursive model for nested expressions and integrated 30+ built-in procedures, achieving 100% accuracy across 35+ test cases.
+        </li>
+        <li>
+          <strong>CPU</strong> · C, RISC-V, Logisim — Designed and implemented a single-cycle CPU in Logisim, executing 25+ RISC-V instructions with a 32-bit ALU, 8-register file, and control logic, achieving 100% accuracy across 50+ test cases.
+        </li>
+        <li>
+          <strong>Build Your Own World (BYOW)</strong> · Java — Developed a 2D tile-based world engine in Java, featuring dynamic, explorable worlds with intelligent tile rendering; added user controls and save/load functionality to enhance user experience.
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email me at <a href="mailto:talhaiijaz@berkeley.edu">talhaiijaz@berkeley.edu</a>.</p>
+    </section>
+  </footer>
 </body>
 </html>
